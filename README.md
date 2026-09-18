@@ -11,7 +11,7 @@ Use the privacy URL in Google Play Console's Privacy policy section, save, then 
 
 ## Maintenance
 
-The HTML files are the source of truth for this site; no build tool or JavaScript is required. Update text directly and keep the app's adopted legal version aligned. These pages include no analytics scripts, forms, remote fonts or advertising. GitHub Pages itself logs visitor IP addresses for security; this is disclosed in the privacy policy.
+The canonical legal text is bundled in Jamie1171/Auralift under app/src/main/assets/legal, in English, Spanish and French. Run scripts/export-policy-site.py with this repository as the destination to regenerate the six policy pages. No browser JavaScript is required. Keep the app’s adopted agreement version aligned (currently 2026-09-18.2). These pages include no analytics scripts, forms, remote fonts or advertising. GitHub Pages itself logs visitor IP addresses for security; this is disclosed in the privacy policy.
 
 The text covers the intended public Google Play edition. Before releasing that app edition, reconcile its in-app legal documents, accepted terms version, actual billing and advertising configuration, consent controls, target audience, launch countries and Data safety declaration with the published policies. Carry out the stated support retention and deletion practices.
 
