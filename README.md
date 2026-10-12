@@ -1,18 +1,28 @@
 # Auralift policies
 
-Static HTML policy website for GitHub Pages, deployed from `main` at the repository root. Policies effective 18 September 2026.
+Static policy website deployed from `main` at the repository root.
+
+- Privacy policy effective 12 October 2026, aligned with Auralift 1.0.1 / code 22.
+- Terms version 2026-10-04.1, unchanged by 1.0.1.
+- English, Spanish and French pages match the bundled app documents.
 
 ## Public pages
 
 - https://jamie1171.github.io/auralift-policies/privacy.html
 - https://jamie1171.github.io/auralift-policies/terms.html
 
-Use the privacy URL in Google Play Console's Privacy policy section, save, then return to Data safety. The root URL is a policy landing page.
+Use the privacy URL in Play Console and AdMob Privacy & messaging.
 
 ## Maintenance
 
-The canonical legal text is bundled in Jamie1171/Auralift under app/src/main/assets/legal, in English, Spanish and French. Run scripts/export-policy-site.py with this repository as the destination to regenerate the six policy pages. No browser JavaScript is required. Keep the app’s adopted agreement version aligned (currently 2026-09-18.2). These pages include no analytics scripts, forms, remote fonts or advertising. GitHub Pages itself logs visitor IP addresses for security; this is disclosed in the privacy policy.
+Canonical legal assets live in `app/src/main/assets/legal` in Auralift's GitLab
+project, https://gitlab.com/jamie.wardle0/aura-lif . GitHub Jamie1171/Auralift is
+its read-only push mirror. Run `scripts/export-policy-site.py` against this
+policy repository to regenerate the six pages. Keep the app assets, accepted
+terms version, SDK disclosures, store listing and Data safety answers aligned.
 
-The text covers the intended public Google Play edition. Before releasing that app edition, reconcile its in-app legal documents, accepted terms version, actual billing and advertising configuration, consent controls, target audience, launch countries and Data safety declaration with the published policies. Carry out the stated support retention and deletion practices.
+Pages contain no JavaScript, analytics, forms, remote fonts or adverts. GitHub
+Pages visitor IP processing is disclosed. Operator contact and provider details
+are described in the policies, including the link to the public Play listing.
 
-Publisher review notes and private reviewer credentials are not included in these pages. The public operator and business contact address were supplied by the publisher for the policies.
+Google reviewer credentials and signing material must never be published here.
