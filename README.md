@@ -2,8 +2,8 @@
 
 Static policy website deployed from `main` at the repository root.
 
-- Privacy policy effective 12 October 2026, aligned with Auralift 1.0.1 / code 22.
-- Terms version 2026-10-04.1, unchanged by 1.0.1.
+- Privacy policy effective 16 October 2026, aligned with Auralift 1.0.4 / code 25.
+- Terms version 2026-10-04.1, unchanged since.
 - English, Spanish and French pages match the bundled app documents.
 
 ## Public pages
